@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="estilo.css">
+    <title>Document</title>
+</head>
+<body>
+    <header id="header">
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#Fisico">Fisico</a>
+            <a href="#portfolio">Portafolio</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+    <section id="inicio" class="inicio">
+        <div class="contenedor-inicio">
+            <h2 id="text-container"></h2>
+
+            <p>Soy juan carlos Garcia y Explora mi portafolio para ver cómo puedo darle vida a tu marca.</p>
+    
+            <button>Registrate</button>
+    
+    
+            <img src="serigrafia LOGO.png" alt="logo abajo y arriba" class="objeto">
+        </div>
+    </section>
+    <section id="skills" class="skills">
+        <div class="contenedor-skills">
+           <h2>Diseños llevados a la realidad</h2>
+           <p>Soy Juan Carlos, diseñador gráfico con habilidades para crear y editar contenido visual atractivo. Con experiencia en diseño de publicidad y edición, convierto ideas en soluciones visuales impactantes. Descubre cómo puedo dar vida a tus proyectos.</p>
+
+            <div class="fila">
+                <div class="col">
+                    <img src="lona final final.png" alt="logo mio">
+                    <h3>Lonas</h3>
+                </div>
+                <div class="col">
+                    <img src="producto png.png" alt="">
+                    <h3>Tazas</h3>
+                </div>
+                <div class="col">
+                    <img src="tarjetas.png" alt="">
+                    <h3>Tarjetas</h3>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="col">
+                    <img src="grisesytonosfuertes3.png" alt="">
+                    <h3>Fotografias</h3>
+                </div>
+                <div class="col">
+                    <img src="fotopublicitaria.jpg" alt="">
+                    <h3>Carteles</h3>
+                </div>
+                <div class="col">
+                    <img src="gafetepng.png" alt="">
+                    <h3>Ropa</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- sección proyectos -->
+    <section id="portfolio" class="porfolio">
+        <h2>Proyectos</h2>
+        <p>Soy Juan Carlos, diseñador gráfico con habilidades para crear y editar contenido visual atractivo. Con experiencia en diseño de publicidad y edición, convierto ideas en soluciones visuales impactantes. Descubre cómo puedo dar vida a tus proyectos.</p>
+        <nav>
+            <button class="selected" onclick="mostrar(0)">Trabajos</button>
+            <div class="separador"></div>
+            <button onclick="mostrar(1)">Cuentas</button>
+            <div class="separador"></div>
+            <button onclick="mostrar(2)">Mas sobre mi</button>
+        </nav>
+
+        <div id="proyectos" class="proyectos">
+            <div class="fila">
+                <div class="col">
+                    <img src="definitivoatras.jpg" alt="">
+                    <div class="overlay">
+                    </div>
+                    <div class="info">
+                        <h2>Logos</h2>
+                        <p>Creacion de logos </p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="BLENDERDEMOS.jpeg" alt="">
+                    <div class="overlay">
+                    </div>
+                    <div class="info">
+                        <h2>Blender </h2>
+                        <p>Diseño y Desarrollo </p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="INTROS.jpg" alt="">
+                    <div class="overlay">
+                    </div>
+                    <div class="info">
+                        <h2>Intros </h2>
+                        <p>Edicion de video </p>
+                    </div>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="col">
+                    <img src="flyer.png" alt="">
+                    <div class="overlay">
+                    </div>
+                    <div class="info">
+                        <h2>Publicidad </h2>
+                        <p>Desarrollo de publicidad </p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="ilustraciones.png" alt="">
+                    <div class="overlay">
+                    </div>
+                    <div class="info">
+                        <h2>Ilustraciones </h2>
+                        <p>Diseño de ilustraciones </p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="barras de pastillas.png" alt="">
+                    <div class="overlay">
+                    </div>
+                    <div class="info">
+                        <h2>Iconos </h2>
+                        <p>Diseño de iconos </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="descripcion" class="descripcion">
+            <p>Son proyectos a los que he aprendido  a lo largo de la carrera de diseño grafico, donde me especializo mas es en crear publicidad, edicion de fotos, logos, iconos, en esas creaciones me baso mas.</p>
+        </div>
+
+        <div id="marcas" class="marcas">
+            <div class="fila">
+                <div class="col">
+                    <i class="fa-brands fa-google"></i>
+                    <h3>Google</h3>
+                </div>
+                <div class="col">
+                    <i class="fa-brands fa-apple"></i>
+                    <h3>Apple</h3>
+                </div>
+                <div class="col">
+                    <i class="fa-brands fa-pinterest-p"></i>
+                    <h3>Pinterest</h3>
+                </div>
+            </div>
+           
+            </div>
+        </div>
+    </section>
+    <section id="contacto" class="contacto">
+        <div class="contenido-contacto">
+            <div class="img">
+                <img src="logocj.png" alt="">
+            </div>
+            <div class="formulario">
+                <h2>Contactame Ahora</h2>
+                <div class="fila">
+                    <input type="text" placeholder="Nombre">
+                    <input type="text" placeholder="Apellido">
+                </div>
+                <div class="fila">
+                    <input type="text" placeholder="Dirección de Gmail">
+                    <input type="text" placeholder="Nº Teléfono">
+                </div>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                <button>Enviar</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Código Web</p>
+        <div class="redes">
+            <a href="#" class="red">
+                <i class="fa-brands fa-facebook-f"></i>
+            </a>
+                
+            <a href="#" class="red">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="#" class="red">
+                <i class="fa-brands fa-youtube"></i>
+            </a>
+
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
